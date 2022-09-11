@@ -15,8 +15,6 @@ Modal.buttonClose.onclick = () => {
     Modal.close()
 }
 
-// window.onkeydown = handleKeydown // só aceita um por aplicativo
-// se em algum outro arquivo for utilizado o onkeydown para a window, este será desconsiderado e será considerado o último carregado
 window.addEventListener('keydown', handleKeydown)
 
 function handleKeydown(event) {
