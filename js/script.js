@@ -10,17 +10,6 @@ const inputHeight = document.querySelector('#height')
 inputWeight.oninput = () => AlertError.close()
 inputHeight.oninput = () => AlertError.close()
 
-/*
-    3 maneiras de criar e atribuir função a um evento:
-    
-    form.onSubmit = function() {}
-
-    form.onSubmit = () => {}
-
-    form.onSubmit = handleSubmit
-    function handleSubmit() {}
-*/
-
 form.onsubmit = event => {
     event.preventDefault()
 
